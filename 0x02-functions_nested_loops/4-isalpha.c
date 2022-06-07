@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *isalpha - check main
+ *_isalpha - check main
  *Description: return 1 if c is a letter(uppercase or lowercase) and 0 if other
  *@c: input character
  *Return: 1 if letter and 0 if other character

@@ -10,8 +10,8 @@ if (x >= 0)
 {
 return (x);
 }
-else if (x < 0)
+else 
 {
-return (-x);
+return (x* -1);
 }
 }

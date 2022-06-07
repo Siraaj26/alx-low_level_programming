@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - entry point
- * Description: Check for lowercase character 
+ * Description: Check for lowercase character
  *@c: the integer value it recieves
  * Return: 1 for lowercase. ofor the rest
  */
@@ -16,4 +16,5 @@ if (i == c)
 lower = 1;
 }
 }
-return (lower);}
+return (lower);
+}

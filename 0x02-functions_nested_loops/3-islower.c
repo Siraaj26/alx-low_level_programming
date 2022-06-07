@@ -6,14 +6,14 @@
  */
 int _islower(int c)
 {
-int c;
-if (c >= 'a' && c <= 'z')
+char i;
+int lower = 0;
+for (i = 'a'; i <= 'z'; i++)
 {
-printf("0");
-}
-else if (c >= 'A' && c <= 'Z')
+if (i == c)
 {
-printf("1");
+lower = 1;
 }
-return (0);
+}
+return (lower);
 }

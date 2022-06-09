@@ -5,9 +5,9 @@
  * @b: second integer 
  * Return: sum of two integers
  */
-int mul(int a, int b(
+int mul(int a, int b)
 {
 int sum;
-sum = a * b)
-return (sum;
+sum = a * b;
+return (sum);
 }

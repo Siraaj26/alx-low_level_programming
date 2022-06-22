@@ -19,7 +19,7 @@ int len = 0, index = 0;
 if (*(str + index))
 {
 if (*str != '*')
-ln++;
+len++;
 
 index++;
 len += strlen_no_wilds(str + index);

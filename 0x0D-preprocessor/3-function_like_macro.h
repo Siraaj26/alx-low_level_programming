@@ -5,6 +5,7 @@
  * File: 3-function_like_macro.h
  * Description: a function-like macro ABS(x)
  *              that computes the absolute value of a number x.
+ * @x: the value computed
  */
 
 #define ABS(x) ((x) < 0 ? (-x) : (x))

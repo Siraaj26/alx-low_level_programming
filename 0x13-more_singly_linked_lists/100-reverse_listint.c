@@ -17,15 +17,15 @@ return (NULL);
 
 behind = NULL;
 
-while (*head->next != NULL)
+while ((*head)->next != NULL)
 {
-ahead = *head->next;
-*head->next = behind;
+ahead = (*head)->next;
+(*head)->next = behind;
 behind = *head;
 *head = ahead;
 }
 
-*head->next = behind;
+(*head)->next = behind;
 
 return (*head);
 }

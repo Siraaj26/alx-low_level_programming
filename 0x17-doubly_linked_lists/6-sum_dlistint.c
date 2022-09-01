@@ -4,16 +4,15 @@
  * @head: The head of list
  * Return: The sum of n
  */
-
 int sum_dlistint(dlistint_t *head)
 {
-int suma = 0;
+int sum = 0;
 
 while (head)
 {
-suma = suma + head->n;
+sum = sum + head->n;
 head = head->next;
 }
 
-return (suma);
+return (sum);
 }
